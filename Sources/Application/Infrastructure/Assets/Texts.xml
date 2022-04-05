@@ -1,0 +1,15 @@
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts"
+							xml:lang="en-US">
+	<voice name="en-US-JennyMultilingualNeural">
+		<lang xml:lang="fr-FR">Commencer</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Beginnen</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Démarrer</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Starten</lang>
+		<break strength="x-strong" />
+
+	</voice>
+</speak>
