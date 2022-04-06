@@ -37,8 +37,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="Infrastructure\Assets\Texts.xml">
+		<None Update="Infrastructure\Assets\TranslationTexts.xml">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Infrastructure\Assets\OtherTranslations\StefanDuNervst.xml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
 

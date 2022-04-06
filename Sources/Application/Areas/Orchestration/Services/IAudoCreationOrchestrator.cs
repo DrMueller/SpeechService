@@ -2,7 +2,7 @@
 
 namespace Mmu.FrenchLearningSystem.Areas.Orchestration.Services
 {
-    public interface ICreateTranslationWavService
+    public interface IAudoCreationOrchestrator
     {
         Task CreateAsync();
     }

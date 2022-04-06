@@ -11,7 +11,7 @@ namespace Mmu.FrenchLearningSystem
         {
             using var host = HostFactory.Create();
 
-            var orchestrator = host.Services.GetRequiredService<ICreateTranslationWavService>();
+            var orchestrator = host.Services.GetRequiredService<IAudoCreationOrchestrator>();
             await orchestrator.CreateAsync();
         }
     }
