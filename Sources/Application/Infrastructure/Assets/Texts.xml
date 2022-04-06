@@ -11,5 +11,64 @@
 		<lang xml:lang="de-DE">Starten</lang>
 		<break strength="x-strong" />
 
+		<lang xml:lang="fr-FR">Écran</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Bildschirm</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Suivant</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Weiter</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Réseau</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Netzwerk, Netz</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Déjà</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Bereits</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">La situation actuelle</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Der aktuelle Stand</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Je l'ai fait manuellement</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Ich habe es manuell gemacht</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Supprimer, Effacer</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Löschen</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Je l'ai supprimé</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Ich habe es gelöscht</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Cela ne fonctionnerait pas en ce moment</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Das würde jetzt gerade nicht funktionieren</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Essayer</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Versuchen</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Si compliquée</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">So kompliziert</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">J'ai pensé</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Ich habe gedacht</lang>
+		<break strength="x-strong" />
 	</voice>
 </speak>
