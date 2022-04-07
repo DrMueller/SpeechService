@@ -70,5 +70,40 @@
 		<break strength="medium" />
 		<lang xml:lang="de-DE">Ich habe gedacht</lang>
 		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Cela ne peut pas fonctionner du tout</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Das kann gar nicht funktionieren</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">J'ai eu un autre rendez-vous</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Ich habe noch einen anderen Termin gehabt</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Tous les tests ont été concluants</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Alle Tests sind erfolgreich gewesen</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">J'ai pensé que j'attendais</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Ich habe gedacht, dass ich gerade warte</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Peut-être parce que</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Vielleicht, weil</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">CLa marche à suivre</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Das Vorgehen</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">Ce pourrait être intéressant</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">Das könnte interessant sein</lang>
+		<break strength="x-strong" />
 	</voice>
 </speak>

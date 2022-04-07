@@ -4,8 +4,8 @@ using Mmu.FrenchLearningSystem.Areas.WavCreation.Models;
 
 namespace Mmu.FrenchLearningSystem.Areas.WavCreation.Services
 {
-    public interface IAudioWavFactory
+    public interface IWavFileFactory
     {
-        Task<WavCreationResult> CreateAsync(SsmlFile ssmlFile);
+        Task<WavFile> CreateAsync(SsmlFile ssmlFile);
     }
 }

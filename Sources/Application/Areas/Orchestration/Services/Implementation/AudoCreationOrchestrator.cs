@@ -1,6 +1,5 @@
-﻿using System.IO;
-using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Areas.BlobUpload.Services;
+﻿using System.Threading.Tasks;
+using Mmu.FrenchLearningSystem.Areas.FileSaving.Services;
 using Mmu.FrenchLearningSystem.Areas.SsmlFileReading.Services;
 using Mmu.FrenchLearningSystem.Areas.WavCreation.Services;
 
@@ -8,33 +7,36 @@ namespace Mmu.FrenchLearningSystem.Areas.Orchestration.Services.Implementation
 {
     public class AudoCreationOrchestrator : IAudoCreationOrchestrator
     {
+        private readonly IWavFileFactory _audioWavFactory;
         private readonly IBlobFileUploader _blobFileUploader;
+        private readonly IFileSaver _fileSaver;
         private readonly ISsmlFileReader _ssmlFileReader;
-        private readonly IAudioWavFactory _audioWavFactory;
 
         public AudoCreationOrchestrator(
-            IAudioWavFactory audioWavFactory,
+            IWavFileFactory audioWavFactory,
             IBlobFileUploader blobFileUploader,
-            ISsmlFileReader ssmlFileReader)
+            ISsmlFileReader ssmlFileReader,
+            IFileSaver fileSaver)
         {
             _audioWavFactory = audioWavFactory;
             _blobFileUploader = blobFileUploader;
             _ssmlFileReader = ssmlFileReader;
+            _fileSaver = fileSaver;
         }
 
         public async Task CreateAsync()
         {
             var otherFiles = await _ssmlFileReader.ReadOtherFilesAsync();
-            foreach(var of in otherFiles)
+
+            foreach (var of in otherFiles)
             {
                 var wavResult = await _audioWavFactory.CreateAsync(of);
-                File.Delete(wavResult.FilePath);
+                await _fileSaver.SaveAsync(wavResult);
             }
 
             var translationSsmlFile = await _ssmlFileReader.ReadTranslationFileAsync();
-            var transWavResult = await _audioWavFactory.CreateAsync(translationSsmlFile);
-            await _blobFileUploader.UploadAsync(transWavResult.FilePath);
-            File.Delete(transWavResult.FilePath);
+            var wavFile = await _audioWavFactory.CreateAsync(translationSsmlFile);
+            await _blobFileUploader.UploadAsync(wavFile);
         }
     }
 }

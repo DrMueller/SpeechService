@@ -1,8 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Azure.Storage.Blobs;
+using Mmu.FrenchLearningSystem.Areas.WavCreation.Models;
 using Mmu.FrenchLearningSystem.Infrastructure.Settings.Services;
 
-namespace Mmu.FrenchLearningSystem.Areas.BlobUpload.Services.Implementation
+namespace Mmu.FrenchLearningSystem.Areas.FileSaving.Services.Implementation
 {
     public class BlobFileUploader : IBlobFileUploader
     {
@@ -13,14 +15,14 @@ namespace Mmu.FrenchLearningSystem.Areas.BlobUpload.Services.Implementation
             _appSettingProvider = appSettingProvider;
         }
 
-        public async Task UploadAsync(string filePath)
+        public async Task UploadAsync(WavFile wavFile)
         {
             var blobClient = new BlobClient(
                 _appSettingProvider.Settings.BlobConnectionString,
                 "frenchlearning",
                 "LearnFrench.wav");
 
-            await blobClient.UploadAsync(filePath, true);
+            await blobClient.UploadAsync(new BinaryData(wavFile.AudioData), true);
         }
     }
 }
