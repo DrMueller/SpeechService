@@ -1,109 +1,69 @@
 ﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts"
 							xml:lang="en-US">
 	<voice name="en-US-JennyMultilingualNeural">
-		<lang xml:lang="fr-FR">Commencer</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Beginnen</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Démarrer</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Starten</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Écran</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Bildschirm</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Suivant</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Weiter</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Réseau</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Netzwerk, Netz</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Déjà</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Bereits</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">La situation actuelle</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Der aktuelle Stand</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Je l'ai fait manuellement</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Ich habe es manuell gemacht</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Supprimer, Effacer</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Löschen</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Je l'ai supprimé</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Ich habe es gelöscht</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Cela ne fonctionnerait pas en ce moment</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Das würde jetzt gerade nicht funktionieren</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Essayer</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Versuchen</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Si compliquée</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">So kompliziert</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">J'ai pensé</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Ich habe gedacht</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Cela ne peut pas fonctionner du tout</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Das kann gar nicht funktionieren</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">J'ai eu un autre rendez-vous</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Ich habe noch einen anderen Termin gehabt</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">Tous les tests ont été concluants</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Alle Tests sind erfolgreich gewesen</lang>
-		<break strength="x-strong" />
-
-		<lang xml:lang="fr-FR">J'ai pensé que j'attendais</lang>
-		<break strength="medium" />
-		<lang xml:lang="de-DE">Ich habe gedacht, dass ich gerade warte</lang>
-		<break strength="x-strong" />
-
 		<lang xml:lang="fr-FR">Peut-être parce que</lang>
 		<break strength="medium" />
 		<lang xml:lang="de-DE">Vielleicht, weil</lang>
 		<break strength="x-strong" />
 
-		<lang xml:lang="fr-FR">CLa marche à suivre</lang>
+		<lang xml:lang="fr-FR">j'ai été</lang>
 		<break strength="medium" />
-		<lang xml:lang="de-DE">Das Vorgehen</lang>
+		<lang xml:lang="de-DE">ich war</lang>
 		<break strength="x-strong" />
 
-		<lang xml:lang="fr-FR">Ce pourrait être intéressant</lang>
+		<lang xml:lang="fr-FR">ils ont été</lang>
 		<break strength="medium" />
-		<lang xml:lang="de-DE">Das könnte interessant sein</lang>
+		<lang xml:lang="de-DE">sie waren</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">nous étions</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">wir waren</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">ils ont été</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">sie waren</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">ils seront</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">sie werden</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">ils ont été</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">sie waren</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">que nous soyons</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">dass wir sind</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">j'ai eu</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">ich hatte</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">ils ont eu</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">ils ont eu</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">vous aurez</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">ihr werdet haben</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">il y a trois semaines</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">vor drei Wochen</lang>
+		<break strength="x-strong" />
+
+		<lang xml:lang="fr-FR">j'ai eu</lang>
+		<break strength="medium" />
+		<lang xml:lang="de-DE">ich hatte</lang>
 		<break strength="x-strong" />
 	</voice>
 </speak>
