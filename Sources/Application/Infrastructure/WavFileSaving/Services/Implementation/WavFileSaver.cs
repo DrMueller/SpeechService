@@ -1,10 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
-using Mmu.FrenchLearningSystem.Domain.WavFileSaving;
-using Mmu.FrenchLearningSystem.Infrastructure.WavFileSaving.Services.Servants;
+﻿using System.Threading.Tasks;
+using Mmu.SpeechService.Domain.WavCreation.Models;
+using Mmu.SpeechService.Domain.WavFileSaving;
+using Mmu.SpeechService.Infrastructure.WavFileSaving.Services.Servants;
 
-namespace Mmu.FrenchLearningSystem.Infrastructure.WavFileSaving.Services.Implementation
+namespace Mmu.SpeechService.Infrastructure.WavFileSaving.Services.Implementation
 {
     public class WavFileSaver : IWavFileSaver
     {

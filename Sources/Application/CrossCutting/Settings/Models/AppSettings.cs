@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Mmu.FrenchLearningSystem.CrossCutting.Settings.Models
+namespace Mmu.SpeechService.CrossCutting.Settings.Models
 {
     [PublicAPI]
     public class AppSettings

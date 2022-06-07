@@ -1,9 +1,6 @@
 ﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts"
 							xml:lang="en-US">
-	<voice name="de-CH-LeniNeural">
-		<prosody rate="-15.00%">
-			Stefan, <break time="200ms" /> Du nervst
-		</prosody>
+	<voice name="en-US-JaneNeural" style="hopeful">
+		Attention please, blinds up in one minute
 	</voice>
-
 </speak>

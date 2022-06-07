@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Models;
+using Mmu.SpeechService.Domain.SsmlFileReading.Models;
 
-namespace Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Services
+namespace Mmu.SpeechService.Domain.SsmlFileReading.Services
 {
     public interface ISsmlFileReader
     {

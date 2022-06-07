@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Console.Commands.Models;
-using Mmu.FrenchLearningSystem.Console.ExecutionContext.Services;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Models;
+using Mmu.SpeechService.Console.ExecutionContext.Services;
 
-namespace Mmu.FrenchLearningSystem.Console.Commands.Services.Servants.Implementation
+namespace Mmu.SpeechService.Console.Commands.Infrastructure.Services.Servants.Implementation
 {
     internal class ConsoleCommandsContainer : IConsoleCommandsContainer
     {

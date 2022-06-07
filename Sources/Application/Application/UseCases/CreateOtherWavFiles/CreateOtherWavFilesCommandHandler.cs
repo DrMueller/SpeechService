@@ -1,19 +1,19 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Services;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Services;
-using Mmu.FrenchLearningSystem.Domain.WavFileSaving;
+using Mmu.SpeechService.Domain.SsmlFileReading.Services;
+using Mmu.SpeechService.Domain.WavCreation.Services;
+using Mmu.SpeechService.Domain.WavFileSaving;
 
-namespace Mmu.FrenchLearningSystem.Application.UseCases.CreateOtherTranslations
+namespace Mmu.SpeechService.Application.UseCases.CreateOtherWavFiles
 {
-    public class CreateOtherTranslationsCommandHandler : IRequestHandler<CreateOtherTranslationsCommand>
+    public class CreateOtherWavFilesCommandHandler : IRequestHandler<CreateOtherWavFilesCommand>
     {
         private readonly ISsmlFileReader _ssmlFileReader;
         private readonly IWavFileFactory _wavFileFactory;
         private readonly IWavFileSaver _wavFileSaver;
 
-        public CreateOtherTranslationsCommandHandler(
+        public CreateOtherWavFilesCommandHandler(
             ISsmlFileReader ssmlFileReader,
             IWavFileFactory wavFileFactory,
             IWavFileSaver wavFileSaver)
@@ -23,7 +23,7 @@ namespace Mmu.FrenchLearningSystem.Application.UseCases.CreateOtherTranslations
             _wavFileSaver = wavFileSaver;
         }
 
-        public async Task<Unit> Handle(CreateOtherTranslationsCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(CreateOtherWavFilesCommand request, CancellationToken cancellationToken)
         {
             var otherFiles = await _ssmlFileReader.ReadInDirectoryAsync("OtherTranslations");
 

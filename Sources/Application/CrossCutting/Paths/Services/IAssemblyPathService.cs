@@ -1,4 +1,4 @@
-﻿namespace Mmu.FrenchLearningSystem.CrossCutting.Paths.Services
+﻿namespace Mmu.SpeechService.CrossCutting.Paths.Services
 {
     public interface IAssemblyPathService
     {

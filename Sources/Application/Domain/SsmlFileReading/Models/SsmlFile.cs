@@ -1,4 +1,4 @@
-﻿namespace Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Models
+﻿namespace Mmu.SpeechService.Domain.SsmlFileReading.Models
 {
     public class SsmlFile
     {

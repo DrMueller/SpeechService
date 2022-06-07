@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.CrossCutting.Paths.Services;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
+using Mmu.SpeechService.CrossCutting.Paths.Services;
+using Mmu.SpeechService.Domain.WavCreation.Models;
 
-namespace Mmu.FrenchLearningSystem.Infrastructure.WavFileSaving.Services.Servants.Implementation
+namespace Mmu.SpeechService.Infrastructure.WavFileSaving.Services.Servants.Implementation
 {
     public class LocalFileSaver : ILocalFileSaver
     {

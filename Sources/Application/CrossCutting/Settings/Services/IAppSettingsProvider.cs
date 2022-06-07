@@ -1,6 +1,6 @@
-﻿using Mmu.FrenchLearningSystem.CrossCutting.Settings.Models;
+﻿using Mmu.SpeechService.CrossCutting.Settings.Models;
 
-namespace Mmu.FrenchLearningSystem.CrossCutting.Settings.Services
+namespace Mmu.SpeechService.CrossCutting.Settings.Services
 {
     public interface IAppSettingsProvider
     {

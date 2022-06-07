@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Console.Commands.Services.Servants;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Services.Servants;
 
-namespace Mmu.FrenchLearningSystem.Console.Commands.Services.Implementation
+namespace Mmu.SpeechService.Console.Commands.Infrastructure.Services.Implementation
 {
     internal class ConsoleCommandsStartupService : IConsoleCommandsStartupService
     {

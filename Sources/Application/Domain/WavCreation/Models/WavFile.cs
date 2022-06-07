@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Mmu.FrenchLearningSystem.Domain.WavCreation.Models
+namespace Mmu.SpeechService.Domain.WavCreation.Models
 {
     public class WavFile
     {

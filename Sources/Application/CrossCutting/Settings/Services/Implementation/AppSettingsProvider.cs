@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
-using Mmu.FrenchLearningSystem.CrossCutting.Settings.Models;
+using Mmu.SpeechService.CrossCutting.Settings.Models;
 
-namespace Mmu.FrenchLearningSystem.CrossCutting.Settings.Services.Implementation
+namespace Mmu.SpeechService.CrossCutting.Settings.Services.Implementation
 {
     public class AppSettingsProvider : IAppSettingsProvider
     {

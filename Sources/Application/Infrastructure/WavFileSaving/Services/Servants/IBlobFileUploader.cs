@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
+using Mmu.SpeechService.Domain.WavCreation.Models;
 
-namespace Mmu.FrenchLearningSystem.Infrastructure.WavFileSaving.Services.Servants
+namespace Mmu.SpeechService.Infrastructure.WavFileSaving.Services.Servants
 {
     public interface IBlobFileUploader
     {

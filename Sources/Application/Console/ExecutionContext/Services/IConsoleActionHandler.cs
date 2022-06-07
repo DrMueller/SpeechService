@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Mmu.FrenchLearningSystem.Console.ExecutionContext.Services
+namespace Mmu.SpeechService.Console.ExecutionContext.Services
 {
     public interface IConsoleActionHandler
     {

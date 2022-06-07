@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Azure.Storage.Blobs;
-using Mmu.FrenchLearningSystem.CrossCutting.Settings.Services;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
+using Mmu.SpeechService.CrossCutting.Settings.Services;
+using Mmu.SpeechService.Domain.WavCreation.Models;
 
-namespace Mmu.FrenchLearningSystem.Infrastructure.WavFileSaving.Services.Servants.Implementation
+namespace Mmu.SpeechService.Infrastructure.WavFileSaving.Services.Servants.Implementation
 {
     public class BlobFileUploader : IBlobFileUploader
     {

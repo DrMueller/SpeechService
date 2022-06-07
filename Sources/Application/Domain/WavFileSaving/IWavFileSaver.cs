@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
+using Mmu.SpeechService.Domain.WavCreation.Models;
 
-namespace Mmu.FrenchLearningSystem.Domain.WavFileSaving
+namespace Mmu.SpeechService.Domain.WavFileSaving
 {
     public interface IWavFileSaver
     {

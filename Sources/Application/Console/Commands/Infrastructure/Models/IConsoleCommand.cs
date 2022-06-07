@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Mmu.FrenchLearningSystem.Console.Commands.Models
+namespace Mmu.SpeechService.Console.Commands.Infrastructure.Models
 {
     public interface IConsoleCommand
     {

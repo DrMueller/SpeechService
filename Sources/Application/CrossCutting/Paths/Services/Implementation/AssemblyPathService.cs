@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Mmu.FrenchLearningSystem.CrossCutting.Paths.Services.Implementation
+namespace Mmu.SpeechService.CrossCutting.Paths.Services.Implementation
 {
     public class AssemblyPathService : IAssemblyPathService
     {

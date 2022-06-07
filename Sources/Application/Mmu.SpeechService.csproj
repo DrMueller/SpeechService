@@ -39,11 +39,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Update="CrossCutting\Assets\OtherTranslations\BlindsUpInOneMinute.xml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="CrossCutting\Assets\OtherTranslations\BlindsUp.xml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 		<None Update="CrossCutting\Assets\TranslationTexts.xml">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="CrossCutting\Assets\OtherTranslations\StefanDuNervst.xml">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
 

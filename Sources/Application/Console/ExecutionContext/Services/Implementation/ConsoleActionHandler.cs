@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Console.ExceptionHandling.Services;
+using Mmu.SpeechService.Console.ExceptionHandling.Services;
 
-namespace Mmu.FrenchLearningSystem.Console.ExecutionContext.Services.Implementation
+namespace Mmu.SpeechService.Console.ExecutionContext.Services.Implementation
 {
     internal class ConsoleActionHandler : IConsoleActionHandler
     {

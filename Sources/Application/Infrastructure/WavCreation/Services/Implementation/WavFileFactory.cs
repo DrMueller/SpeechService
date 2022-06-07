@@ -2,12 +2,12 @@
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.CognitiveServices.Speech;
-using Mmu.FrenchLearningSystem.CrossCutting.Settings.Services;
-using Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Models;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Services;
+using Mmu.SpeechService.CrossCutting.Settings.Services;
+using Mmu.SpeechService.Domain.SsmlFileReading.Models;
+using Mmu.SpeechService.Domain.WavCreation.Models;
+using Mmu.SpeechService.Domain.WavCreation.Services;
 
-namespace Mmu.FrenchLearningSystem.Infrastructure.WavCreation.Services.Implementation
+namespace Mmu.SpeechService.Infrastructure.WavCreation.Services.Implementation
 {
     public class WavFileFactory : IWavFileFactory
     {

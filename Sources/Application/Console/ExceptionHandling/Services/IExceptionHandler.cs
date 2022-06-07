@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mmu.FrenchLearningSystem.Console.ExceptionHandling.Services
+namespace Mmu.SpeechService.Console.ExceptionHandling.Services
 {
     public interface IExceptionHandler
     {

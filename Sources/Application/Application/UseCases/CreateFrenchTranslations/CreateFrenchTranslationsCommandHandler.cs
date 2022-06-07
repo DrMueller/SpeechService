@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Services;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Services;
-using Mmu.FrenchLearningSystem.Domain.WavFileSaving;
+using Mmu.SpeechService.Domain.SsmlFileReading.Services;
+using Mmu.SpeechService.Domain.WavCreation.Services;
+using Mmu.SpeechService.Domain.WavFileSaving;
 
-namespace Mmu.FrenchLearningSystem.Application.UseCases.CreateFrenchTranslations
+namespace Mmu.SpeechService.Application.UseCases.CreateFrenchTranslations
 {
     internal class CreateFrenchTranslationsCommandHandler : IRequestHandler<CreateFrenchTranslationsCommand>
     {

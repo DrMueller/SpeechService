@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Domain.SsmlFileReading.Models;
-using Mmu.FrenchLearningSystem.Domain.WavCreation.Models;
+using Mmu.SpeechService.Domain.SsmlFileReading.Models;
+using Mmu.SpeechService.Domain.WavCreation.Models;
 
-namespace Mmu.FrenchLearningSystem.Domain.WavCreation.Services
+namespace Mmu.SpeechService.Domain.WavCreation.Services
 {
     public interface IWavFileFactory
     {

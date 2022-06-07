@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Application.Mediation.Models;
+﻿using Mmu.SpeechService.Application.Mediation.Models;
 
-namespace Mmu.FrenchLearningSystem.Application.UseCases.CreateFrenchTranslations
+namespace Mmu.SpeechService.Application.UseCases.CreateFrenchTranslations
 {
     public class CreateFrenchTranslationsCommand :ICommand
     {

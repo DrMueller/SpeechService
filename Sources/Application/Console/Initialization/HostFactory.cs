@@ -6,20 +6,20 @@ using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Mmu.FrenchLearningSystem.Console.Commands.Models;
-using Mmu.FrenchLearningSystem.Console.Commands.Services;
-using Mmu.FrenchLearningSystem.Console.Commands.Services.Implementation;
-using Mmu.FrenchLearningSystem.Console.Commands.Services.Servants;
-using Mmu.FrenchLearningSystem.Console.Commands.Services.Servants.Implementation;
-using Mmu.FrenchLearningSystem.Console.ConsoleOutput.Services;
-using Mmu.FrenchLearningSystem.Console.ConsoleOutput.Services.Implementation;
-using Mmu.FrenchLearningSystem.Console.ExceptionHandling.Services;
-using Mmu.FrenchLearningSystem.Console.ExceptionHandling.Services.Implementation;
-using Mmu.FrenchLearningSystem.Console.ExecutionContext.Services;
-using Mmu.FrenchLearningSystem.Console.ExecutionContext.Services.Implementation;
-using Mmu.FrenchLearningSystem.CrossCutting.Settings.Models;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Models;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Services;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Services.Implementation;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Services.Servants;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Services.Servants.Implementation;
+using Mmu.SpeechService.Console.ConsoleOutput.Services;
+using Mmu.SpeechService.Console.ConsoleOutput.Services.Implementation;
+using Mmu.SpeechService.Console.ExceptionHandling.Services;
+using Mmu.SpeechService.Console.ExceptionHandling.Services.Implementation;
+using Mmu.SpeechService.Console.ExecutionContext.Services;
+using Mmu.SpeechService.Console.ExecutionContext.Services.Implementation;
+using Mmu.SpeechService.CrossCutting.Settings.Models;
 
-namespace Mmu.FrenchLearningSystem.Console.Initialization
+namespace Mmu.SpeechService.Console.Initialization
 {
     public static class HostFactory
     {

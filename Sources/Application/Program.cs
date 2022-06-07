@@ -1,9 +1,8 @@
-﻿using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
-using Mmu.FrenchLearningSystem.Console.Commands.Services;
-using Mmu.FrenchLearningSystem.Console.Initialization;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Mmu.SpeechService.Console.Commands.Infrastructure.Services;
+using Mmu.SpeechService.Console.Initialization;
 
-namespace Mmu.FrenchLearningSystem
+namespace Mmu.SpeechService
 {
     public static class Program
     {

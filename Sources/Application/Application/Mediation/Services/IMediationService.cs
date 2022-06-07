@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Mmu.FrenchLearningSystem.Application.Mediation.Models;
+using Mmu.SpeechService.Application.Mediation.Models;
 
-namespace Mmu.FrenchLearningSystem.Application.Mediation.Services
+namespace Mmu.SpeechService.Application.Mediation.Services
 {
     public interface IMediationService
     {

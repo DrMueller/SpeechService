@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using Mmu.FrenchLearningSystem.Console.ConsoleOutput.Services;
+using Mmu.SpeechService.Console.ConsoleOutput.Services;
 
-namespace Mmu.FrenchLearningSystem.Console.ExceptionHandling.Services.Implementation
+namespace Mmu.SpeechService.Console.ExceptionHandling.Services.Implementation
 {
     internal class ExceptionHandler : IExceptionHandler
     {

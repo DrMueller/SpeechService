@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using MediatR;
-using Mmu.FrenchLearningSystem.Application.Mediation.Models;
+using Mmu.SpeechService.Application.Mediation.Models;
 
-namespace Mmu.FrenchLearningSystem.Application.Mediation.Services.Implementation
+namespace Mmu.SpeechService.Application.Mediation.Services.Implementation
 {
     public class MediationService : IMediationService
     {

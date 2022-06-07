@@ -1,4 +1,4 @@
-﻿namespace Mmu.FrenchLearningSystem.Console.Commands.Services
+﻿namespace Mmu.SpeechService.Console.Commands.Infrastructure.Services
 {
     public interface IConsoleCommandsStartupService
     {

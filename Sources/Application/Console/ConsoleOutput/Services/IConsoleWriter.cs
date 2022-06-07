@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mmu.FrenchLearningSystem.Console.ConsoleOutput.Services
+namespace Mmu.SpeechService.Console.ConsoleOutput.Services
 {
     public interface IConsoleWriter
     {
